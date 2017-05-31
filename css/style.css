@@ -1,0 +1,195 @@
+.h500 {
+  height: 100px;
+  display: block;
+}
+.h50 {
+  height: 50px;
+}
+.h20 {
+  margin-bottom: 20px;
+}
+.h20 a {
+  color: #ccc;
+}
+.h20 a span {
+  margin-right: 20px;
+}
+.top {
+  height: 40px;
+  background: #fecb16;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
+}
+.top a {
+  margin-right: 50px;
+  color: red;
+  font-size: 18px;
+}
+.navbar {
+  height: 60px;
+  line-height: 60px;
+  background: #000;
+  overflow: hidden;
+}
+.navbar .navbar-collapse {
+  margin-left: 50px;
+}
+.navbar .navbar-collapse img {
+  float: left;
+  margin-left: 20px;
+}
+.navbar .navbar-collapse ul li {
+  margin-left: 30px;
+}
+.navbar .navbar-collapse ul li a {
+  color: #fff;
+  padding-top: 18px;
+  padding-bottom: 20px;
+}
+.navbar .navbar-collapse ul li.dianhua {
+  background: url(../img/images/phone_03.jpg) no-repeat left center;
+  padding-left: 20px;
+}
+.navbar .navbar-collapse ul li.active {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.navbar .navbar-collapse form .txt {
+  width: 145px;
+  height: 20px;
+  text-align: center;
+  border: 0;
+  padding-bottom: 5px;
+  border-bottom: 1px #ffffff solid;
+  background: #000;
+}
+.navbar .navbar-collapse form input {
+  margin-right: 10px;
+}
+.main .container {
+  border-bottom: 1px #ccc solid;
+  padding: 20px 0;
+}
+.main .container .fangxiang {
+  margin-left: 20px;
+  float: left;
+  font-weight: bold;
+  margin-right: 20px;
+  line-height: 44px;
+}
+.main .container .pan {
+  float: left;
+}
+.main .container .pan span {
+  float: left;
+  height: 44px;
+  display: block;
+  line-height: 44px;
+  padding: 0 20px;
+}
+.main .container .pan span.first {
+  background: blue;
+}
+.main .row {
+  margin-top: 20px;
+}
+.main .row .col-md-11 .fangxiang {
+  margin-left: 20px;
+  float: left;
+  font-weight: bold;
+  margin-right: 20px;
+  line-height: 44px;
+}
+.main .row .col-md-11 .pan {
+  float: left;
+}
+.main .row .col-md-11 .pan span {
+  float: left;
+  height: 44px;
+  display: block;
+  line-height: 44px;
+  padding: 0 20px;
+}
+.main .row .col-md-11 .pan span.first {
+  background: blue;
+}
+.main .pagination {
+  margin-top: 20px;
+}
+.main .pagination li a {
+  border: 0;
+  color: #ccc;
+  border-radius: 50%;
+}
+.main1 {
+  margin-top: 30px;
+}
+.main1 .shang {
+  border-bottom: 1px #ccc solid;
+  margin-bottom: 30px;
+}
+.main1 .shang b {
+  padding-left: 20px;
+}
+.main1 .shang a {
+  color: darkgray;
+  display: inline-block;
+  padding: 20px;
+}
+.main1 .xia b {
+  line-height: 30px;
+}
+.main1 .xia p {
+  color: #8C8C8C;
+}
+.main1 .xia em {
+  border: 1px mediumaquamarine solid;
+  display: block;
+  width: 120px;
+  height: 20px;
+  text-align: center;
+}
+.footer {
+  padding: 40px 0;
+  color: #ccc;
+}
+.footer span {
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: #0ec389;
+  color: #fff;
+}
+.footer span.v {
+  background: #ff885a;
+}
+@media (max-width: 767px) {
+  .navbar .navbar-collapse {
+    margin-left: 50px;
+  }
+  .navbar-collapse {
+    background: black;
+  }
+  .navbar-collapse ul {
+    margin-top: 50px;
+  }
+  .navbar-collapse ul li {
+    margin-left: 0;
+    padding-right: 20px;
+  }
+  .main {
+    margin-left: 20px;
+  }
+  .main .row .pan span {
+    border: 1px #ccc solid;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  .main .row .pan span.first {
+    background: #fff;
+  }
+}
